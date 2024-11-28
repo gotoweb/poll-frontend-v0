@@ -21,6 +21,10 @@ export default function Home() {
             .
           </li>
           <li>Save and see your changes instantly.</li>
+          <li>전체 목록 보기 화면은 구현되어있지 않습니다.</li>
+          <li><a href="/polls/1">/polls/1</a> 요청을 통해 투표 화면에 접근할 수 있습니다.</li>
+          <li><a href="/polls/1">/polls/1/results</a> 요청을 통해 결과 화면에 접근할 수 있습니다. id(숫자)는 바꿀 수 있습니다.</li>
+          <li>이 프로젝트는 v0.dev를 이용해서 만들었습니다. 프롬프트를 확인하려면 <a href="https://v0.dev/chat/OOJNXBr74vQ?b=b_FhMcu2fBQIQ">여기를 클릭하세요</a></li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
